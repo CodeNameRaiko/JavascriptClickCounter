@@ -11,9 +11,9 @@ body {
 .wrapper {
     height: 40vmin;
     width: 50vmin;
-   /* background: #e3e3e3;
+    background: #e3e3e3;
  background: rgb(213,213,213);
-background: linear-gradient(320deg, rgba(213,213,213,1) 35%, rgba(234,234,234,1) 65%); */
+background: linear-gradient(320deg, rgba(213,213,213,1) 35%, rgba(234,234,234,1) 65%); 
     text-align: center; 
     padding: 2em; 
     border-radius: 5px; 
@@ -35,15 +35,6 @@ background: linear-gradient(320deg, rgba(213,213,213,1) 35%, rgba(234,234,234,1)
         transform: scale(1.0);
     }
 }
-
-/*
-.DisplayVisible,
-.DisplayVisible h1,
-.DisplayVisible h4, 
-.DisplayVisible button {
-   background: red !important;
-} */
-
 
 .DisplayNone, 
 .DisplayNone h1,
@@ -68,8 +59,6 @@ background: linear-gradient(320deg, rgba(213,213,213,1) 35%, rgba(234,234,234,1)
     font-size: 24px;  
     outline: none;
 }
-
- 
 
 #num {
     font-family: open sans;
