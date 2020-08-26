@@ -1,0 +1,151 @@
+body {
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 70vh;
+    background: gainsboro;
+}
+
+.wrapper {
+    height: 40vmin;
+    width: 50vmin;
+   /* background: #e3e3e3;
+ background: rgb(213,213,213);
+background: linear-gradient(320deg, rgba(213,213,213,1) 35%, rgba(234,234,234,1) 65%); */
+    text-align: center; 
+    padding: 2em; 
+    border-radius: 5px; 
+   box-shadow: 1px 1px 1px #000; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: solid 1px dimgrey; 
+    animation: appear 1s ease; 
+}
+
+@keyframes appear {
+    0% {
+        transform: scale(0);
+    } 50% {
+        transform: scale(1.1);
+    } 100% {
+        transform: scale(1.0);
+    }
+}
+
+/*
+.DisplayVisible,
+.DisplayVisible h1,
+.DisplayVisible h4, 
+.DisplayVisible button {
+   background: red !important;
+} */
+
+
+.DisplayNone, 
+.DisplayNone h1,
+.DisplayNone h4,
+.DisplayNone button,
+.Two {
+    display: none !important;
+}
+
+.One, #Two {
+    visibility: visible !important;
+    transform: translate(0, 0) !important;
+    opacity: 1;
+}
+
+#count {
+    padding: 1em; 
+    border-radius: 5px;
+    width: 300px;
+    font-family: open sans;
+    font-weight: 200;
+    font-size: 24px;  
+    outline: none;
+}
+
+ 
+
+#num {
+    font-family: open sans;
+    font-size: 29px;
+}
+
+.h1 {
+    font-size: 50px;
+    font-family: open sans; 
+    
+}
+
+.One h4  {
+    font-size: 20px;
+    font-family: open sans;
+    font-weight: 500;
+}
+
+.lead-btn {
+height: 100px;
+width: 300px; 
+font-family: open sans;
+font-weight: 200;
+font-size: 24px;
+border-radius: 5%;
+outline: none;
+user-select: none;
+}
+
+.material-icons.restart, #restart, #undo {
+    font-size: 50px;
+    margin: 1em;    
+    transition: color  200ms ease;
+    transition: box-shadow  200ms ease;
+    outline: none;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.material-icons.restart:hover, #restart:hover , #undo:hover{
+     color: rgb(98, 98, 156); 
+}
+
+.material-icons.restart:active, #restart:active , #undo:active{
+    transform: scale(1.1);
+    color: grey;
+}
+
+
+
+.align {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 1em;
+}
+
+
+.lead-btn:hover, #count:hover  {
+    background: #dddddd; 
+    color: white;
+}
+
+.lead-btn:active, #count:active {
+    background: #e0d9d9;
+    color: black;
+}
+.copyright {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 400px;
+    font-size: 16px;
+    font-family: open sans;
+    font-weight: 200; 
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
