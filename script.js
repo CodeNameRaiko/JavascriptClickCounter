@@ -6,6 +6,8 @@ var End = document.querySelector(".Two");
 var Front = document.querySelector(".One");
 // Reset Button
 var Reset = document.querySelector("#restart");
+// Undo 
+var undo = document.getElementById("undo");
 
 /* Go Forward */ 
 btn.addEventListener('click', () => {
@@ -14,9 +16,6 @@ btn.addEventListener('click', () => {
   Front.classList.add("DisplayNone"); 
   End.classList.remove("Two");
 })
-
-// Undo 
-var undo = document.getElementById("undo");
 
 /* Go Back */
 undo.onclick = function () {
